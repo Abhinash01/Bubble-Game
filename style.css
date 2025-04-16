@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(144, 199, 144);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.panel{
+    height: 80%;
+    width: 80%;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.pantop{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(39, 98, 39);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20%;
+
+}
+
+.elem{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 0 10%;
+    color: aliceblue;
+}
+
+.box{
+    height: 30px;
+    width: 30px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: rgb(5, 64, 27);
+    font-size: x-large;
+}
+
+.pandwn{
+    width: 100%;
+    height: calc(100% - 100px);
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+
+.circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(30, 103, 29);
+    color: white;
+    font-weight: 800;
+    font-size: x-large;
+}
+.circle:hover{
+    background-color: rgb(52, 160, 50);
+    cursor: pointer;
+}
+
+
